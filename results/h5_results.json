@@ -1,0 +1,58 @@
+{
+  "framework": "2.0",
+  "stage": "H5",
+  "n_subjects": 9,
+  "caveat": "n=9. Drift rates from H4 (same subjects). MID=0.01: engineering judgment.",
+  "stratification": {
+    "high_drift": [
+      "S1",
+      "S4",
+      "S7",
+      "S8",
+      "S9"
+    ],
+    "low_drift": [
+      "S2",
+      "S11",
+      "S12",
+      "S13"
+    ]
+  },
+  "strategies": {
+    "S1_uniform_3": {
+      "label": "Uniform-3",
+      "mean": 0.7782334333386738,
+      "std": 0.05498571962962275
+    },
+    "S2_uniform_5": {
+      "label": "Uniform-5",
+      "mean": 0.7386173717278528,
+      "std": 0.07738451347188867
+    },
+    "S3_stratified": {
+      "label": "Stratified (drift)",
+      "mean": 0.7787765647748826,
+      "std": 0.06320250752661154
+    },
+    "S4_reverse": {
+      "label": "Reverse",
+      "mean": 0.7460585337233172,
+      "std": 0.07777089350873086
+    },
+    "S5_no_calib": {
+      "label": "No calibration",
+      "mean": 0.6306758813622654,
+      "std": 0.15355431375786494
+    }
+  },
+  "s3_vs_s1": {
+    "mean_diff": 0.0005431314362086548,
+    "ci_95": [
+      -0.032600803676229285,
+      0.03590494541626185
+    ],
+    "p_pos": 0.5121,
+    "p_above_mid": 0.2967,
+    "decision": "MARGINAL_STRATIFIED"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "framework": "2.0",
+  "stage": "H3",
+  "n_subjects": 9,
+  "caveat": "n=9. Min detectable |rho| ~0.83 (80% power).",
+  "neural_metrics": {
+    "S1": {
+      "weight_stability": 0.0007758068184383404,
+      "pca_stability": 0.4589433803731796,
+      "entropy_mean": 0.02389746181131018
+    },
+    "S2": {
+      "weight_stability": 0.08973984176107644,
+      "pca_stability": 0.21060043358338315,
+      "entropy_mean": 0.10268915821140986
+    },
+    "S4": {
+      "weight_stability": -0.09739843266788108,
+      "pca_stability": -0.08004497266743396,
+      "entropy_mean": 0.29860487478700554
+    },
+    "S7": {
+      "weight_stability": 0.00243544020104125,
+      "pca_stability": 0.29613870083021326,
+      "entropy_mean": 0.2764731054713753
+    },
+    "S8": {
+      "weight_stability": 0.08212900103106606,
+      "pca_stability": 0.10086733329791257,
+      "entropy_mean": 0.016029973785518573
+    },
+    "S9": {
+      "weight_stability": 0.023962590169837993,
+      "pca_stability": 0.10621360928920635,
+      "entropy_mean": 0.15158278120427646
+    },
+    "S11": {
+      "weight_stability": -0.12813264385460638,
+      "pca_stability": 0.25738295754088075,
+      "entropy_mean": 0.21633742085255522
+    },
+    "S12": {
+      "weight_stability": 0.020173077495500867,
+      "pca_stability": 0.048803738476648095,
+      "entropy_mean": 0.12394998599351807
+    },
+    "S13": {
+      "weight_stability": 0.0168787276510425,
+      "pca_stability": 0.37101166884060344,
+      "entropy_mean": 0.21046589265346424
+    }
+  },
+  "correlations": {
+    "Weight Stability": {
+      "spearman_rho": -0.03333333333333333,
+      "spearman_p": 0.932156735540504,
+      "n": 9
+    },
+    "PCA Stability": {
+      "spearman_rho": -0.06666666666666667,
+      "spearman_p": 0.8646897846262037,
+      "n": 9
+    },
+    "Decoding Entropy": {
+      "spearman_rho": -0.31666666666666665,
+      "spearman_p": 0.4063970144863861,
+      "n": 9
+    }
+  }
+}

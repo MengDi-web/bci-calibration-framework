@@ -1,0 +1,73 @@
+{
+  "framework": "2.0",
+  "stage": "H1",
+  "n_subjects": 9,
+  "n_sessions": 11,
+  "excluded": [
+    "S10"
+  ],
+  "subjects": [
+    "S1",
+    "S2",
+    "S4",
+    "S7",
+    "S8",
+    "S9",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "mu_beta": {
+    "mean": 0.01276668715347572,
+    "sd": 0.015553538828888953,
+    "hdi_95": [
+      -0.01613504489015719,
+      0.04443508214826388
+    ],
+    "p_gt_0": 0.800125,
+    "accuracy_change_11sessions_mean": 0.03185845294012238,
+    "accuracy_change_11sessions_hdi": [
+      -0.040315748370353066,
+      0.1106329913224331
+    ]
+  },
+  "h1_supported": false,
+  "individual_slopes": {
+    "S1": {
+      "mean_accuracy_change": 0.049427057947546094,
+      "p_gt_0": 0.818
+    },
+    "S2": {
+      "mean_accuracy_change": 0.03097681249106463,
+      "p_gt_0": 0.734125
+    },
+    "S4": {
+      "mean_accuracy_change": 0.04187387853050529,
+      "p_gt_0": 0.7915
+    },
+    "S7": {
+      "mean_accuracy_change": 0.032814324655016665,
+      "p_gt_0": 0.7525
+    },
+    "S8": {
+      "mean_accuracy_change": 0.0486910477126617,
+      "p_gt_0": 0.809125
+    },
+    "S9": {
+      "mean_accuracy_change": 0.037734677294180514,
+      "p_gt_0": 0.765
+    },
+    "S11": {
+      "mean_accuracy_change": 0.026914555974261255,
+      "p_gt_0": 0.715375
+    },
+    "S12": {
+      "mean_accuracy_change": 0.020641857583338485,
+      "p_gt_0": 0.675875
+    },
+    "S13": {
+      "mean_accuracy_change": 0.018817180994579758,
+      "p_gt_0": 0.661625
+    }
+  }
+}
