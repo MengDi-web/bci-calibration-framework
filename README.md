@@ -1,4 +1,4 @@
-Framework 2.0: Five-Stage Falsifiable Framework for BCI Calibration Scheduling
+Framework: Five-Stage Falsifiable Framework for BCI Calibration Scheduling
 
 Overview
 ========
