@@ -72,3 +72,15 @@ calibration_framework/
   All random seeds fixed at 42
   Raw data: Stieger et al. (2021), available via MOABB and PhysioNet
   Run order: Stage 0 -> H1 -> H2 -> H3 -> H4 -> H5
+
+## Citation
+
+If you use this framework in your research, please cite:
+
+```bibtex
+@software{bci_calibration_framework,
+  author = {Di Meng},
+  title = {BCI Calibration Scheduling: A Five-Stage Falsifiable Framework},
+  year = {2025},
+  url = {https://github.com/MengDi-web/bci-calibration-framework}
+}
