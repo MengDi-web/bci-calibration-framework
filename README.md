@@ -81,6 +81,5 @@ If you use this framework in your research, please cite:
 @software{bci_calibration_framework,
   author = {Di Meng},
   title = {BCI Calibration Scheduling: A Five-Stage Falsifiable Framework},
-  year = {2025},
+  year = {2026},
   url = {https://github.com/MengDi-web/bci-calibration-framework}
-}
