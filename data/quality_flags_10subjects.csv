@@ -1,0 +1,11 @@
+,Session_1,Session_2,Session_3,Session_4,Session_5,Session_6,Session_7,Session_8,Session_9,Session_10,Session_11
+S1,OK,OK,skip1,skip1,OK,skip3,OK,skip2,OK,skip1,skip2
+S2,OK,OK,OK,OK,OK,skip1,OK,OK,skip1,OK,skip1
+S4,OK,OK,OK,OK,OK,OK,OK,OK,OK,OK,OK
+S7,OK,skip1,OK,skip2,OK,OK,OK,skip1,OK,OK,OK
+S8,OK,OK,OK,OK,OK,OK,OK,OK,OK,OK,OK
+S9,skip1,skip1,OK,OK,OK,OK,skip1,OK,OK,OK,OK
+S10,OK,OK,OK,OK,skip1,OK,skip1,OK,OK,OK,OK
+S11,OK,OK,skip1,OK,OK,OK,OK,OK,skip2,OK,OK
+S12,skip1,OK,OK,OK,skip1,OK,skip3,skip1,OK,OK,skip2
+S13,OK,skip1,OK,OK,skip1,OK,OK,OK,OK,skip1,skip3

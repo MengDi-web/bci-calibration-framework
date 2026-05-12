@@ -1,0 +1,71 @@
+{
+  "framework": "2.0",
+  "stage": 0,
+  "n_subjects": 10,
+  "n_sessions": 11,
+  "overall_pass": false,
+  "dimensions": {
+    "D1": {
+      "pass": true,
+      "n_above_chance": 11
+    },
+    "D2": {
+      "pass": false,
+      "n_flagged": 5,
+      "details": {
+        "S1": [
+          "OK"
+        ],
+        "S2": [
+          "OK"
+        ],
+        "S4": [
+          "CV(0.225)"
+        ],
+        "S7": [
+          "CV(0.291)",
+          "JUMP(Session_3->Session_4: 0.872->0.388)",
+          "JUMP(Session_4->Session_5: 0.388->0.920)",
+          "JUMP(Session_5->Session_6: 0.920->0.418)"
+        ],
+        "S8": [
+          "OK"
+        ],
+        "S9": [
+          "JUMP(Session_1->Session_2: 0.897->0.584)"
+        ],
+        "S10": [
+          "CV(0.235)",
+          "JUMP(Session_1->Session_2: 0.808->0.434)",
+          "JUMP(Session_7->Session_8: 0.421->0.724)"
+        ],
+        "S11": [
+          "CV(0.295)"
+        ],
+        "S12": [
+          "OK"
+        ],
+        "S13": [
+          "OK"
+        ]
+      }
+    },
+    "D3": {
+      "pass": true,
+      "near_chance": []
+    },
+    "D4": {
+      "pass": true,
+      "complete_rate": 1.0
+    }
+  },
+  "high_baseline_note": "Subjects with Session 1 >= 0.80 noted for transparency.",
+  "high_baseline_subjects": [
+    "S4",
+    "S7",
+    "S9",
+    "S10",
+    "S11",
+    "S12"
+  ]
+}
